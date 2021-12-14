@@ -3,29 +3,34 @@
   <component name="CompilerConfiguration">
     <option name="BUILD_PROCESS_HEAP_SIZE" value="1024" />
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="kancms-service" />
+        <module name="autoconfiguration-exception" />
+        <module name="autoconfiguration-knife4j" />
         <module name="kancms-feign" />
-        <module name="kancms-basic" />
         <module name="kancms-model" />
         <module name="kancms-common" />
         <module name="kancms-gateway" />
+        <module name="management-service" />
         <module name="kancms-utils" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="kancms-basic" options="-parameters" />
+      <module name="autoconfiguration-exception" options="-parameters" />
+      <module name="autoconfiguration-knife4j" options="-parameters" />
+      <module name="kancms-basic" options="" />
       <module name="kancms-common" options="-parameters" />
       <module name="kancms-feign" options="-parameters" />
       <module name="kancms-gateway" options="-parameters" />
       <module name="kancms-model" options="-parameters" />
-      <module name="kancms-service" options="-parameters" />
+      <module name="kancms-service" options="" />
       <module name="kancms-utils" options="-parameters" />
+      <module name="management-service" options="-parameters" />
     </option>
   </component>
 </project>
