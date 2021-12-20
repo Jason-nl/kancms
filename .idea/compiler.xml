@@ -23,12 +23,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="autoconfiguration-exception" options="-parameters" />
       <module name="autoconfiguration-knife4j" options="-parameters" />
+      <module name="kancms" options="" />
       <module name="kancms-basic" options="" />
       <module name="kancms-common" options="-parameters" />
       <module name="kancms-feign" options="-parameters" />
       <module name="kancms-gateway" options="-parameters" />
       <module name="kancms-model" options="-parameters" />
-      <module name="kancms-service" options="" />
+      <module name="kancms-service" options="-parameters" />
       <module name="kancms-utils" options="-parameters" />
       <module name="management-service" options="-parameters" />
     </option>

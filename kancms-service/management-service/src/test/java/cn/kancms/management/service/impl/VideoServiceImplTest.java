@@ -32,15 +32,14 @@ class VideoServiceImplTest {
         video.setDuration("更新至11集");
         video.setRegion("内地");
         video.setReleaseAt("2021");
-        video.setUpdateAt("2021-12-14 21:01:01");
+        video.setUpdateAt("2021-12-14 20:01:01");
         video.setSynopsis("该剧以2014年中国援非医疗队抗击“埃博拉病毒“的事迹为原型，讲述了病毒学家郑书鹏和他所在的中国援非医疗队与埃博拉病毒展开艰苦卓绝的战斗，最终成功遏制病毒蔓延，圆满完成援非医疗任务的故事。");
         video.setSource("腾讯视频");
 
         links = List.of(
                 new VideoLink("https://v.qq.com/x/cover/mzc00200ijghodp/o004180owhw.html"),
                 new VideoLink("https://v.qq.com/x/cover/mzc00200ijghodp/j0041z5dtjy.html"),
-                new VideoLink("https://v.qq.com/x/cover/mzc00200ijghodp/d0041i5urcm.html"),
-                new VideoLink("https://v.qq.com/x/cover/mzc00200ijghodp/u0041318cpt.html")
+                new VideoLink("https://v.qq.com/x/cover/mzc00200ijghodp/d0041i5urcm.html")
         );
 
 //,
